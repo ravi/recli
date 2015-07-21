@@ -13,6 +13,7 @@ var r      = require('rethinkdb'),
                .boolean(['c', 'colors', 'j', 'n', 'r', 'v'])
                .default('colors', true)
                .default('file', defaultConfigFile)
+               .alias('auth',     'a')
                .alias('coffee',   'c')
                .alias('database', 'd')
                .alias('file',     'f')
