@@ -147,8 +147,8 @@ REQL EXPRESSION:
           r.table('bikes').get('123').update({foo: 'bar'})
 
 OPTIONAL options:
-    -a, --authkey              Authorisation key to use.
-    
+    -a, --auth                 Authorisation key to use.
+
     -c, --coffee               Evaluate code as CoffeeScript.
 
     -d, --database DATABASE    Default database to perform queries against.
