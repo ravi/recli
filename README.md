@@ -147,6 +147,8 @@ REQL EXPRESSION:
           r.table('bikes').get('123').update({foo: 'bar'})
 
 OPTIONAL options:
+    -a, --authkey              Authorisation key to use.
+    
     -c, --coffee               Evaluate code as CoffeeScript.
 
     -d, --database DATABASE    Default database to perform queries against.
@@ -183,6 +185,8 @@ The keys and values in the configuration files must match the (long-form) option
 # set default connection options
 database: mydb
 host: server1
+port: 280116
+auth: supersecret
 
 # output valid JSON by default
 json: true
