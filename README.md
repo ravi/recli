@@ -185,7 +185,7 @@ The keys and values in the configuration files must match the (long-form) option
 # set default connection options
 database: mydb
 host: server1
-port: 280116
+port: 28016
 auth: supersecret
 
 # output valid JSON by default
